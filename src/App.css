@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+ color: rgb(6, 6, 6);
+
+}
+.bg{
+  display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+         
+          background-image: url('https://cdn.pixabay.com/photo/2020/08/30/09/28/buildings-5528981_640.jpg');
+          background-size: cover;
+          background-position: center;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
